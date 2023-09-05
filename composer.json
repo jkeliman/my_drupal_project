@@ -21,6 +21,8 @@
         "drupal/core-composer-scaffold": "^10.1",
         "drupal/core-project-message": "^10.1",
         "drupal/core-recommended": "^10.1",
+        "drupal/tara": "^10.0",
+        "drupal/vartheme_bs4": "^9.0",
         "drush/drush": "^12.1"
     },
     "conflict": {
@@ -34,7 +36,9 @@
             "drupal/core-composer-scaffold": true,
             "drupal/core-project-message": true,
             "phpstan/extension-installer": true,
-            "dealerdirect/phpcodesniffer-composer-installer": true
+            "dealerdirect/phpcodesniffer-composer-installer": true,
+            "cweagans/composer-patches": true,
+            "oomphinc/composer-installers-extender": true
         },
         "sort-packages": true
     },
