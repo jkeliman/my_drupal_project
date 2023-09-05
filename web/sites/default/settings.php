@@ -861,9 +861,9 @@ $settings['migrate_node_migrate_type_classic'] = FALSE;
 #   include $app_root . '/' . $site_path . '/settings.local.php';
 # }
 $databases['default']['default'] = array (
-  'database' => 'mysql',
-  'username' => 'root',
-  'password' => '',
+  'database' => 'drupalDB',
+  'username' => 'jkelimana',
+  'password' => '1 L0v3 PN4',
   'prefix' => '',
   'host' => 'localhost',
   'port' => '3306',
