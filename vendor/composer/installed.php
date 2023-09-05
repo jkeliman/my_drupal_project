@@ -3,7 +3,7 @@
         'name' => 'drupal/recommended-project',
         'pretty_version' => 'dev-master',
         'version' => 'dev-master',
-        'reference' => '9d7b9a022acf5541869a224a60ad33befbae2f41',
+        'reference' => '3bb6eeb4e316aea061ac349b997a8ad103716093',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -173,14 +173,12 @@
             'dev_requirement' => false,
         ),
         'drupal/admin_toolbar' => array(
-            'pretty_version' => 'dev-3.x',
-            'version' => 'dev-3.x',
-            'reference' => '597343628805f5cdfb1573e89bc165b556a168d0',
+            'pretty_version' => '3.4.1',
+            'version' => '3.4.1.0',
+            'reference' => '3.4.1',
             'type' => 'drupal-module',
             'install_path' => __DIR__ . '/../../web/modules/contrib/admin_toolbar',
-            'aliases' => array(
-                0 => '3.x-dev',
-            ),
+            'aliases' => array(),
             'dev_requirement' => false,
         ),
         'drupal/bootstrap' => array(
@@ -384,7 +382,7 @@
         'drupal/recommended-project' => array(
             'pretty_version' => 'dev-master',
             'version' => 'dev-master',
-            'reference' => '9d7b9a022acf5541869a224a60ad33befbae2f41',
+            'reference' => '3bb6eeb4e316aea061ac349b997a8ad103716093',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
